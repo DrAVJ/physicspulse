@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Node
+node_modules/
+.next/
+dist/
+build/
+*.log
+npm-debug.log*
+
+# Database
+*.db
+*.sqlite
+
+# Media
+uploads/
+*.mp4
+*.mp3
+*.wav
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+
+# Docker volumes
+postgres_data/
+
+# Alembic
+# Keep migrations but ignore pyc
+alembic/versions/__pycache__/
